@@ -14,9 +14,9 @@ at the University of Arizona.
 ##TODO
 Project requirements and their completion statuses:
 ###Legend
-* Not Started :large_red_triangle:
-* In Progress :large_orange_diamond:
-* Completed :large_green_circle:
+* Not Started  - :small_red_triangle:
+* In Progress - :small_orange_diamond:
+* Completed - :small_blue_diamond:
 
 #### Pages :small_orange_diamond:
 * Base :small_orange_diamond:
