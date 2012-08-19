@@ -23,16 +23,16 @@ Reff\_Quiz requirements and their completion statuses:
             1. Quiz Info - :small_red_triangle:
                 * Quiz Name - :small_red_triangle:
                 * Quiz Status - :small_red_triangle:
-                    * Open
-                    * Closed
-                    * Draft
+                    1. Open
+                    2. Closed
+                    3. Draft
                 * _Quiz Deploy Date_ - DEFFERED
                 * Quiz Discription - :small_red_triangle:
             2. Quiz Content - :small_red_triangle:
                 * Questions - :small_red_triangle:
-                    * Question Body
-                    * _Associated Question Image_ - DEFFERED
-                    * Correct Answer
-                    * Incorrect Answers
+                    1. Question Body
+                    2. _Associated Question Image_ - DEFFERED
+                    3. Correct Answer
+                    4. Incorrect Answers
 
 
