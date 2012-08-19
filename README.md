@@ -14,8 +14,8 @@ at the University of Arizona.
 ##TODO
 Project requirements and their completion statuses:
 
-#### Pages
-* Base :small_red_triangle:
+#### Pages :small_orange_diamond:
+* Base :small_orange_diamond:
     * Header :small_red_triangle:
         * Bootstrap Navbar :small_red_triangle:
     * Content :small_red_triangle:
