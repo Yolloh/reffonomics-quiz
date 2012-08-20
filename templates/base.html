@@ -16,28 +16,9 @@
  </head>
 
 <body>
-{% block header %}
-<div id="header">
-	<div id="nav" class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-          <a class="brand" href="{% url views.index %}">
-					Reffonomics World Quiz Center
-				</a>
-        <ul class="nav pull-right">
-            <li class="divider-vertical"></li>
-            {% if user.is_authenticated %}
-            {% trans "Welcome" %},: {{ user.username }}
-            <a href="{#% url auth_logout %#}">{% trans "Log out" %}</a>
-            {% else %}
-            <a href="{#% url auth_login %#}">{% trans "Log in" %}</a>
-            {% endif %}
-        </ul>
-			</div>
-		</div>
-	</div>
-</div>
-{% endblock %}
+    <div id="header">
+    {% include "nav.html" %}
+    </div>
     <div id="content">
         <div id="container-fluid">
             <div id="row">
@@ -46,9 +27,7 @@
         </div>
     </div>
     <div id="footer">
-        {% block footer %}
-        <hr/>
-        {% endblock %}
+        {% block footer %}<hr/>{% endblock %}
     </div>
 </body>
 
